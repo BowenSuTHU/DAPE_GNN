@@ -2,7 +2,7 @@
 from torch_geometric.data import Dataset
 from torch.utils.data import DataLoader
 import math, random
-from PEGPT_ablation_2 import GCNlayer,GINlayer,SAGElayer
+from Ablation_Baseline import GCNlayer,GINlayer,SAGElayer
 import os
 import numpy as np
 import torch
